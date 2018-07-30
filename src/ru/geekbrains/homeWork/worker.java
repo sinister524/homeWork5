@@ -1,6 +1,6 @@
 package ru.geekbrains.homeWork;
 
-public class worker {
+public class Worker {
     String fullName;
     String job;
     String email;
@@ -8,7 +8,7 @@ public class worker {
     String salary;
     int age;
 
-    public worker(String fullName, String job, String email, String phone, String salary, int age) {
+    public Worker(String fullName, String job, String email, String phone, String salary, int age) {
         this.fullName = fullName;
         this.job = job;
         this.email = email;
@@ -19,4 +19,7 @@ public class worker {
     public void printInfo () {
         System.out.println (fullName + "\n" + job + "\n" + email + "\n" + phone + "\n" + salary + "\n" + age);
     }
+
+
+
 }
